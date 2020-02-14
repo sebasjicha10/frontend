@@ -53,7 +53,7 @@ body {
     padding: 8px 15px;
 }
 
-#new-quote:hover {
+#new-quote:hover, ##new-quote:active {
     opacity: 95%;
 }
 
