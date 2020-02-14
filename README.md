@@ -11,8 +11,9 @@ Random Quote Machine Created Using FrontEnd JavaScript Technologies
 ## Front End
 
 <ul>
-  <li>Python - Flask</li>
-  <li>SQLite</li>
+  <li>React</li>
+  <li>Redux</li>
+  <li>Bootstrap</li>
+  <li>FlexBox</li>
 </ul>
-<h2>Front End</h2>
-<ul>
+
