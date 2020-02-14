@@ -1,0 +1,112 @@
+:root {
+    --initial-color: darkslategray;
+}
+body {
+    background-color: white;
+}
+
+
+#root {
+    margin-top: 50px;
+}
+
+/* Main Section */
+#quote-box {
+    width: 470px;
+    height: auto;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* Quote */
+#text {
+    font-size: 26px;
+    color: var(--initial-color);
+    font-family: 'Roboto Slab', serif;
+}
+
+#author {
+    font-size: 16px;
+    float: right;
+    color: var(--initial-color);
+}
+
+/* Buttons bellow */
+#buttons {
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* New Quote */
+#new-quote{
+    font-weight: lighter;
+    float: right;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--initial-color);
+    color: white;
+    font-size: 14px;
+    padding: 8px 15px;
+}
+
+#new-quote:hover {
+    opacity: 95%;
+}
+
+/* Tweet */
+#twitter {
+    color: var(--initial-color);
+    margin-top: 19px;
+    font-size: 30px;
+}
+
+#twitter:hover {
+    opacity: 95%;
+}
+
+/* by Sebastian Jimenez */
+#bysebas {
+    font-size: 12px;
+    color: var(--initial-color);
+    margin-top: 10px;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    /* Main Section */
+    #quote-box {
+        width: 90vw;
+        margin-top: 40px;
+        padding: 0px 10px;
+    } 
+    /* Quote */
+    #text {
+        font-size: 18px;
+    }
+    #author {
+        font-size: 14px;
+        float: none;
+        text-align: center;
+    }
+    /* Buttons bellow */
+    #buttons {
+        margin-top: 40px;
+    }
+    /* New Quote */
+    #new-quote{
+        font-size: 12px;
+    }
+    /* Tweet */
+    #twitter {
+        font-size: 25px;
+    }
+    /* by Sebastian Jimenez */
+    #bysebas {
+        font-size: 10px;
+        margin-top: 40px;
+    }
+}
