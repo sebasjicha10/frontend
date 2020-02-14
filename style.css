@@ -53,8 +53,8 @@ body {
     padding: 8px 15px;
 }
 
-#new-quote:hover {
-    opacity: 50%;
+#new-quote:hover, #new-quote:active {
+    opacity: 95%;
 }
 
 /* Tweet */
